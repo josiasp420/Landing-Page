@@ -1,11 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 .main_container {
@@ -13,17 +16,73 @@ body {
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
 }
 
 .header {
-    background-color: #f8f9fa;
+    color: #f8f9fa; 
     padding: 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    flex-direction: column;
+    background-color: #1F2937FF;
 }
+
+.links{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro{
+    display: flex;
+    padding: 65px;
+    font-size: 15px;
+}
+
+div.intro-left{
+    flex:1 1 0%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 44px;
+    margin-bottom: 50px;
+}
+
+.intro-title{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.intro-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.intro-button{
+    width: 150px;
+    height: 30px;
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border:0px;
+}
+
+div.intro-right{
+    flex:1 1 0%;
+    display: flex;
+    background: gray;
+}
+
+.intro-gray-img{
+}
+
 
 .container {
     flex: 1;
@@ -33,14 +92,178 @@ body {
 }
 
 .footer {
-    background-color: #f8f9fa;
-    padding: 20px;
+    background-color: #1F2937;
+    padding: 8px;
     text-align: center;
+    color: white;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap: 10px;
+    margin: 0;
+    gap: 20px;
 }
+
+a {
+    color: white;
+    text-decoration-style: none;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    padding-top: 40px;
+}
+
+.img-iluste-title{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937; 
+    padding-bottom: 10px;
+}
+
+.img-iluste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+
+.img-one{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border:30px;
+    /*border-color: #3B82F6FF;*/
+    border-color: red;
+    border-top:20px;
+    border-top-color: red;
+    border-radius:3px;
+}
+
+.img-two{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border:30px;
+    border-color: #3B82F6FF;
+    border-radius:3px;
+}
+
+.img-three{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    border:30px;
+    border-color: #3B82F6FF;
+    border-radius:3px;
+}
+
+.img-four{
+    background-color: gray;
+    width: 100px;
+    height: 100px;    
+    border:30px;
+    border-color: #3B82F6FF;
+    border-radius:3px;
+}
+
+/*=============*/
+
+.autor{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.autor-delimiter{
+    padding: 100px; 
+    padding-left:250px; 
+    padding-right:250px;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+.autor-message{
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.autor-autor{
+    display: flex;
+    /*align-items: center;*/
+    justify-content: flex-end;
+    font-size: 17px;
+    font-weight: 900;
+
+}
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px;
+}
+
+.callto{
+    background-color: #3882F6;
+    border-radius: 8px;
+    flex-grow: 1;
+    display: flex;
+    padding: 30px;
+}
+
+.callto-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.callto-button{
+    color: white;
+    border-bottom-style: 1 solid;
+    border-radius: 6px;
+    border-color: white;
+    background-color: #3882F6;
+    height: 40px;
+}
+
+
+.non{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
